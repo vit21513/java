@@ -11,7 +11,7 @@ public class task_2 {
         }
     }
 
-    public static Boolean checkSimpleNumber(int num) {
+    public static Boolean checkSimpleNumber(int num) {   //функция определяет тип числа 
 
         for (int index = 2; index <= num / 2; index++) {
             if (num % index == 0) {
